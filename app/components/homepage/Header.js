@@ -23,7 +23,11 @@ export default function Header() {
       <div className="flex items-center space-x-8">
         <Link href="/" className="flex items-center space-x-2">
             <img src="/HomePage/Header/01_Logo.svg" alt="logo" className="h-8 w-8" />
+<<<<<<< HEAD
             <h1 className="text-xl font-bold text-blue-600">Namaste Stocks</h1>
+=======
+            <h1 className="text-xl font-bold text-blue-600">StockTracker Pro</h1>
+>>>>>>> 6aedb29 (commit)
         </Link>
         <nav className="hidden md:flex space-x-6">
           <Link href="/dashboard" className="text-gray-700 hover:text-blue-600">

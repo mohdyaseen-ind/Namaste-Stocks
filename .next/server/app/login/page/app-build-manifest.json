@@ -2,12 +2,20 @@
   "pages": {
     "/login/page": [
       "static/chunks/[root of the server]__70af3c0d._.css",
+<<<<<<< HEAD
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_5c018398._.js",
       "static/chunks/node_modules_next_94b24558._.js",
       "static/chunks/app_44652eb7._.js",
       "static/chunks/app_layout_f0e4c1a2.js",
       "static/chunks/_eb390ba4._.js",
       "static/chunks/app_login_page_a6934cc9.js",
+=======
+      "static/chunks/node_modules_next_dist_05476590._.js",
+      "static/chunks/app_context_AuthContext_1458494b.js",
+      "static/chunks/app_layout_f0e4c1a2.js",
+      "static/chunks/_eb390ba4._.js",
+      "static/chunks/app_login_page_5c59699b.js",
+>>>>>>> 6aedb29 (commit)
       "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_49a6ea35._.js",
       "static/chunks/node_modules_next_dist_compiled_2ce9398a._.js",
       "static/chunks/node_modules_next_dist_client_43e3ffb8._.js",

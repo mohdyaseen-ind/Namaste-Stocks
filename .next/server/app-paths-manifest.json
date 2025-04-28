@@ -1,6 +1,13 @@
 {
   "/api/auth/login/route": "app/api/auth/login/route.js",
+<<<<<<< HEAD
   "/dashboard/page": "app/dashboard/page.js",
   "/login/page": "app/login/page.js",
   "/page": "app/page.js"
+=======
+  "/login/page": "app/login/page.js",
+  "/page": "app/page.js",
+  "/portfolio/page": "app/portfolio/page.js",
+  "/watchlist/page": "app/watchlist/page.js"
+>>>>>>> 6aedb29 (commit)
 }

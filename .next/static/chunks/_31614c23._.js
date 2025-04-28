@@ -28,8 +28,13 @@ function RegisterPage() {
         setIsLoading(true);
         const formData = new FormData(event.currentTarget);
         const username = formData.get('username')?.toString().trim();
+<<<<<<< HEAD
         const password = formData.get('password')?.toString().trim();
         const confirmPassword = formData.get('confirmPassword')?.toString().trim();
+=======
+        const password = formData.get('password')?.toString();
+        const confirmPassword = formData.get('confirmPassword')?.toString();
+>>>>>>> 6aedb29 (commit)
         // Client-side Validation (keep as is)
         if (!username || !password || !confirmPassword) {
             setMessage('Please fill in all fields.');

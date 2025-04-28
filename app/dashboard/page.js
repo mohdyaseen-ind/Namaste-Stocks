@@ -1,5 +1,10 @@
 // app/dashboard/page.js
 import { FiTrendingUp, FiTrendingDown, FiZap } from 'react-icons/fi';
+<<<<<<< HEAD
+=======
+import Header from '../components/homepage/Header';
+import Footer from '../components/homepage/Footer';
+>>>>>>> 6aedb29 (commit)
 import Stock from '../components/dashboard/Stock';
 
 // Sample Data for Market Dashboard (from previous step)
@@ -25,6 +30,10 @@ const popularStocksData = [
 export default function DashboardPage() {
   return (
     <>
+<<<<<<< HEAD
+=======
+      <Header />
+>>>>>>> 6aedb29 (commit)
       {/* Market Dashboard Section */}
       <section className='bg-gray-100 p-6 md:p-10 flex flex-col gap-12 md:gap-16'> {/* Slightly lighter bg, adjusted padding/gap */}
         {/* Market Overview (Top Performers/Losers/Movers) */}
@@ -91,9 +100,15 @@ export default function DashboardPage() {
               <Stock key={index} stock={stock} />
             ))}
           </div>
+<<<<<<< HEAD
           {/* Removed empty inner div */}
         </div>
       </section>
+=======
+        </div>
+      </section>
+      <Footer />
+>>>>>>> 6aedb29 (commit)
     </>
   );
 }

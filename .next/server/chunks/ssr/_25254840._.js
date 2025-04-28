@@ -235,17 +235,28 @@ function Portfolio() {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                         className: "text-3xl font-bold mb-4",
+<<<<<<< HEAD
                         children: "My Portfolio"
+=======
+                        children: "Portfolio"
+>>>>>>> 6aedb29 (commit)
                     }, void 0, false, {
                         fileName: "[project]/app/portfolio/page.js",
                         lineNumber: 9,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+<<<<<<< HEAD
                         children: "This is my Profolio Page"
                     }, void 0, false, {
                         fileName: "[project]/app/portfolio/page.js",
                         lineNumber: 10,
+=======
+                        children: "View and manage your portfolio."
+                    }, void 0, false, {
+                        fileName: "[project]/app/portfolio/page.js",
+                        lineNumber: 11,
+>>>>>>> 6aedb29 (commit)
                         columnNumber: 11
                     }, this)
                 ]
@@ -256,7 +267,11 @@ function Portfolio() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Footer$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                 lineNumber: 12,
+=======
+                lineNumber: 13,
+>>>>>>> 6aedb29 (commit)
                 columnNumber: 9
             }, this)
         ]

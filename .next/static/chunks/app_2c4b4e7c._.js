@@ -374,12 +374,17 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 
 var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
+<<<<<<< HEAD
 // app/portfolio/page.js
+=======
+// app/portfolio/07_PortfolioPage.js
+>>>>>>> 6aedb29 (commit)
 __turbopack_context__.s({
     "default": (()=>PortfolioPage)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+<<<<<<< HEAD
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)"); // For linking to login page
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$AuthContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/context/AuthContext.js [app-client] (ecmascript)"); // Import useAuth hook
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/homepage/Header.js [app-client] (ecmascript)"); // Assuming you have these
@@ -387,12 +392,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepag
 ;
 var _s = __turbopack_context__.k.signature();
 'use client'; // Required for using hooks like useAuth
+=======
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)"); // Import Link
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$AuthContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/context/AuthContext.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/homepage/Header.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Footer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/components/homepage/Footer.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+>>>>>>> 6aedb29 (commit)
 ;
 ;
 ;
 ;
 ;
+<<<<<<< HEAD
 // Sample Static Data for Portfolio
+=======
+// Sample Static Data
+>>>>>>> 6aedb29 (commit)
 const portfolioData = [
     {
         name: 'RELIANCE',
@@ -411,19 +429,29 @@ const portfolioData = [
         quantity: 20,
         avgPrice: 1450.80,
         currentPrice: 1480.50
+<<<<<<< HEAD
     },
     {
         name: 'INFY',
         quantity: 15,
         avgPrice: 1400.00,
         currentPrice: 1455.00
+=======
+>>>>>>> 6aedb29 (commit)
     }
 ];
 function PortfolioPage() {
     _s();
+<<<<<<< HEAD
     const { user } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$AuthContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAuth"])(); // Get user state from context
     // If user is not logged in, show a message
     if (!user) {
+=======
+    const { user } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$context$2f$AuthContext$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAuth"])(); // Get user state
+    // ---- Authentication Check ----
+    if (!user) {
+        // Return JSX for logged-out users
+>>>>>>> 6aedb29 (commit)
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
@@ -431,6 +459,7 @@ function PortfolioPage() {
                     lineNumber: 25,
                     columnNumber: 9
                 }, this),
+<<<<<<< HEAD
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                     className: "bg-gray-100 p-10 min-h-screen flex flex-col items-center justify-center",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -475,17 +504,62 @@ function PortfolioPage() {
                         columnNumber: 13
                     }, this)
                 }, void 0, false, {
+=======
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "p-10 text-center min-h-screen",
+                    children: [
+                        " ",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                            className: "text-red-600 text-xl mb-2",
+                            children: "Access Denied"
+                        }, void 0, false, {
+                            fileName: "[project]/app/portfolio/page.js",
+                            lineNumber: 27,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            className: "mb-4",
+                            children: "Please log in to view your portfolio."
+                        }, void 0, false, {
+                            fileName: "[project]/app/portfolio/page.js",
+                            lineNumber: 28,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                            href: "/login",
+                            legacyBehavior: true,
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                className: "text-blue-600 underline",
+                                children: "Go to Login"
+                            }, void 0, false, {
+                                fileName: "[project]/app/portfolio/page.js",
+                                lineNumber: 30,
+                                columnNumber: 14
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/app/portfolio/page.js",
+                            lineNumber: 29,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+>>>>>>> 6aedb29 (commit)
                     fileName: "[project]/app/portfolio/page.js",
                     lineNumber: 26,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Footer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                     lineNumber: 39,
+=======
+                    lineNumber: 33,
+>>>>>>> 6aedb29 (commit)
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true);
+<<<<<<< HEAD
     }
     // Calculate derived values for the table
     const portfolioWithCalculations = portfolioData.map((holding)=>{
@@ -507,10 +581,16 @@ function PortfolioPage() {
     const totalGainLoss = totalCurrentValue - totalInvestment;
     const totalGainLossPercent = totalInvestment === 0 ? 0 : totalGainLoss / totalInvestment * 100;
     // If user is logged in, show the portfolio content
+=======
+    } // End of authentication check
+    // ---- Logged-in User View ----
+    // Render the portfolio table if the user is logged in
+>>>>>>> 6aedb29 (commit)
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Header$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                 lineNumber: 69,
                 columnNumber: 7
             }, this),
@@ -604,16 +684,85 @@ function PortfolioPage() {
                                             }, void 0, false, {
                                                 fileName: "[project]/app/portfolio/page.js",
                                                 lineNumber: 86,
+=======
+                lineNumber: 42,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                className: "p-6 min-h-screen",
+                children: [
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                        className: "text-xl mb-4",
+                        children: "My Portfolio"
+                    }, void 0, false, {
+                        fileName: "[project]/app/portfolio/page.js",
+                        lineNumber: 45,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "overflow-x-auto",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                            className: "min-w-full border border-collapse",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                        className: "border",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                className: "border p-2 text-left",
+                                                children: "Stock"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/portfolio/page.js",
+                                                lineNumber: 51,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                className: "border p-2 text-right",
+                                                children: "Quantity"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/portfolio/page.js",
+                                                lineNumber: 52,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                className: "border p-2 text-right",
+                                                children: "Avg. Price"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/portfolio/page.js",
+                                                lineNumber: 53,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                className: "border p-2 text-right",
+                                                children: "Current Price"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/portfolio/page.js",
+                                                lineNumber: 54,
+                                                columnNumber: 19
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                className: "border p-2 text-right",
+                                                children: "Current Value"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/portfolio/page.js",
+                                                lineNumber: 55,
+>>>>>>> 6aedb29 (commit)
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                                         lineNumber: 78,
+=======
+                                        lineNumber: 50,
+>>>>>>> 6aedb29 (commit)
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                                     lineNumber: 77,
                                     columnNumber: 15
                                 }, this),
@@ -707,16 +856,71 @@ function PortfolioPage() {
                                                     fileName: "[project]/app/portfolio/page.js",
                                                     lineNumber: 103,
                                                     columnNumber: 24
+=======
+                                    lineNumber: 49,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                    children: portfolioData.map((holding, index)=>{
+                                        const currentValue = holding.quantity * holding.currentPrice;
+                                        return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                            className: "border",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                    className: "border p-2",
+                                                    children: holding.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/portfolio/page.js",
+                                                    lineNumber: 63,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                    className: "border p-2 text-right",
+                                                    children: holding.quantity
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/portfolio/page.js",
+                                                    lineNumber: 64,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                    className: "border p-2 text-right",
+                                                    children: holding.avgPrice.toFixed(2)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/portfolio/page.js",
+                                                    lineNumber: 65,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                    className: "border p-2 text-right",
+                                                    children: holding.currentPrice.toFixed(2)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/portfolio/page.js",
+                                                    lineNumber: 66,
+                                                    columnNumber: 23
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                    className: "border p-2 text-right font-semibold",
+                                                    children: currentValue.toFixed(2)
+                                                }, void 0, false, {
+                                                    fileName: "[project]/app/portfolio/page.js",
+                                                    lineNumber: 67,
+                                                    columnNumber: 23
+>>>>>>> 6aedb29 (commit)
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                                             lineNumber: 93,
+=======
+                                            lineNumber: 62,
+>>>>>>> 6aedb29 (commit)
                                             columnNumber: 21
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                                     lineNumber: 89,
                                     columnNumber: 15
                                 }, this),
@@ -817,16 +1021,24 @@ function PortfolioPage() {
                                 }, void 0, true, {
                                     fileName: "[project]/app/portfolio/page.js",
                                     lineNumber: 111,
+=======
+                                    lineNumber: 58,
+>>>>>>> 6aedb29 (commit)
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                             lineNumber: 76,
+=======
+                            lineNumber: 48,
+>>>>>>> 6aedb29 (commit)
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                         lineNumber: 74,
                         columnNumber: 11
                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -836,16 +1048,28 @@ function PortfolioPage() {
                         fileName: "[project]/app/portfolio/page.js",
                         lineNumber: 132,
                         columnNumber: 11
+=======
+                        lineNumber: 47,
+                        columnNumber: 9
+>>>>>>> 6aedb29 (commit)
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                 lineNumber: 70,
+=======
+                lineNumber: 44,
+>>>>>>> 6aedb29 (commit)
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$homepage$2f$Footer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/portfolio/page.js",
+<<<<<<< HEAD
                 lineNumber: 137,
+=======
+                lineNumber: 76,
+>>>>>>> 6aedb29 (commit)
                 columnNumber: 7
             }, this)
         ]

@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "axios": "^1.8.4",
+>>>>>>> 6aedb29 (commit)
     "bcryptjs": "^3.0.2",
     "fs": "^0.0.1-security",
     "next": "15.2.4",
